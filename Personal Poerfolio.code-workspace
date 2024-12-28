@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/iPortfolio-1.0.0"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Personal Poerfolio"
+	}
+}

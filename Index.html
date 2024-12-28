@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Tushar Sinha</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@2.15.1/devicon.min.css">
+    <style>
+        /* Custom styles for responsiveness and animations */
+        body {
+            background: linear-gradient(to right, #e3f2fd, #ffffff);
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            padding: 40px 0;
+        }
+
+        #home {
+            background: url('images/home-bg.jpg') no-repeat center center/cover;
+            color: white;
+        }
+
+        #skills {
+            background: linear-gradient(to bottom, #f5f5f5, #e0e0e0);
+            border-radius: 20px;
+        }
+
+        #projects {
+            background: linear-gradient(135deg, #ffffff 0%, #e3f2fd 100%);
+            padding: 50px;
+            border-radius: 15px;
+        }
+
+        #contact {
+            background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+            padding: 40px;
+        }
+
+        #certifications {
+            background: linear-gradient(to bottom, #ffffff, #f5f5f5);
+            padding: 50px;
+        }
+
+        footer {
+            background: #222;
+            color: #bbb;
+        }
+
+        .btn-primary {
+            background: #6a11cb;
+            border: none;
+            transition: background 0.3s;
+        }
+
+        .btn-primary:hover {
+            background: #2575fc;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            #skills .col-md-3 {
+                font-size: 0.9rem;
+            }
+
+            #projects .col-md-4 {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="text-center py-5">
+        <h1 class="mb-3 animate__animated animate__fadeInDown">Tushar Sinha</h1>
+        <p class="animate__animated animate__fadeInUp">Computer Science Student at IIIT Bhagalpur | Aspiring Software Developer</p>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="text-center py-5">
+        <div class="container animate__animated animate__zoomIn">
+            <img src="TusharPhoto.png" alt="Tushar Sinha" class="rounded-circle mb-4" width="150">
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 animate__animated animate__fadeIn">Skills</h2>
+            <div class="row text-center">
+                <div class="col-md-3 animate__animated animate__flipInX"><i class="devicon-cplusplus-plain"></i> C++</div>
+                <div class="col-md-3 animate__animated animate__flipInX"><i class="devicon-c-plain"></i> C</div>
+                <div class="col-md-3 animate__animated animate__flipInX"><i class="devicon-javascript-plain"></i> JavaScript</div>
+                <div class="col-md-3 animate__animated animate__flipInX"><i class="devicon-html5-plain"></i> HTML</div>
+                <div class="col-md-3 animate__animated animate__flipInX"><i class="devicon-css3-plain"></i> CSS</div>
+                <div class="col-md-3 animate__animated animate__flipInX"><i class="devicon-nodejs-plain"></i> NodeJS</div>
+                <div class="col-md-3 animate__animated animate__flipInX"><i class="devicon-react-original"></i> React</div>
+                <div class="col-md-3 animate__animated animate__flipInX"><i class="devicon-mongodb-plain"></i> MongoDB</div>
+                <div class="col-md-3 animate__animated animate__flipInX"><i class="devicon-mysql-plain"></i> MySQL</div>
+                <div class="col-md-3 animate__animated animate__flipInX"><i class="devicon-git-plain"></i> Git</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 animate__animated animate__fadeIn">Projects</h2>
+            <div class="row">
+                <div class="col-md-4 animate__animated animate__slideInLeft">
+                    <h3>Netflix Clone</h3>
+                    <p><strong>Technologies Used:</strong> <i class="devicon-html5-plain"></i> HTML, <i class="devicon-css3-plain"></i> CSS, <i class="devicon-javascript-plain"></i> JavaScript</p>
+                    <ul>
+                        <li>Developed a responsive web application simulating the Netflix UI.</li>
+                        <li>Created a UI with movie thumbnails, navigation bar, and hover effects.</li>
+                        <li>Implemented dynamic content rendering and a user-friendly interface.</li>
+                    </ul>
+                    <a href="https://github.com/tushar7153/netflix-clone" class="btn btn-primary">View Project</a>
+                </div>
+                <div class="col-md-4 animate__animated animate__slideInUp">
+                    <h3>Helpdesk Ticketing System</h3>
+                    <p><strong>Technologies Used:</strong> <i class="devicon-javascript-plain"></i> JavaScript</p>
+                    <ul>
+                        <li>Designed a comprehensive ticketing system for efficient ticket management.</li>
+                        <li>Implemented features for ticket creation, tracking, and real-time updates.</li>
+                        <li>Focused on enhancing user experience with a responsive interface.</li>
+                    </ul>
+                    <a href="https://github.com/tushar7153/helpdesk-ticketing-system" class="btn btn-primary">View Project</a>
+                </div>
+                <div class="col-md-4 animate__animated animate__slideInRight">
+                    <h3>Dot and Boxes Game</h3>
+                    <p><strong>Technologies Used:</strong> <i class="devicon-javascript-plain"></i> JavaScript</p>
+                    <ul>
+                        <li>Created an interactive game supporting single-player and multiplayer modes.</li>
+                        <li>Developed real-time score tracking and dynamic game board generation.</li>
+                        <li>Designed an engaging user interface with smooth animations and responsive gameplay.</li>
+                    </ul>
+                    <a href="https://github.com/tushar7153/dots-and-box-game" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 animate__animated animate__fadeIn">Certifications</h2>
+            <ul class="list-unstyled">
+                <li class="animate__animated animate__fadeInUp">
+                    <h5><strong>Tata Data Visualization Course</strong> - JULY 2024</h5>
+                    <p>Completed a certification course focusing on advanced data visualization techniques. Gained expertise in using tools and methodologies to create insightful and interactive data visualizations, including proficiency in software such as Tableau and Power BI.</p>
+                </li>
+                <li class="animate__animated animate__fadeInUp">
+                    <h5><strong>Infosys Spring Boot Front-End Developer Course</strong> - AUGUST 2024</h5>
+                    <p>Achieved certification in Spring Boot with a focus on front-end development. Acquired skills in building robust and scalable web applications using Spring Boot and integrating them with front-end technologies. Demonstrated proficiency in creating dynamic user interfaces and managing full-stack development projects.</p>
+                </li>
+                <li class="animate__animated animate__fadeInUp">
+                    <h5><strong>Flipkart GRiD 6.0 E-Commerce & Tech Quiz</strong> - AUGUST 2024</h5>
+                    <p>Participated in the Level 1 E-Commerce & Tech Quiz under the Software Development Track of Flipkart GRiD 6.0, representing the Indian Institute of Information Technology (IIIT), Bhagalpur.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 animate__animated animate__fadeIn">Contact</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary animate__animated animate__bounce">Send</button>
+            </form>
+            <div class="text-center mt-4">
+                <a href="https://www.linkedin.com/in/tushar-sinha-5b8b87256/" class="me-3">LinkedIn</a>
+                <a href="https://github.com/tushar7153">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="text-center py-3">
+        <p>&copy; 2024 Tushar Sinha. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
